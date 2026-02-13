@@ -1,0 +1,28 @@
+{
+  "laws": {
+    "files": [
+      "new-york.json",
+      "detroit.json",
+      "chicago.json",
+      "san-francisco.json",
+      "atlanta.json",
+      "san-diego.json",
+      "los-angeles.json",
+      "miami.json",
+      "las-vegas.json",
+      "washington.json",
+      "dallas.json",
+      "boston.json",
+      "houston.json",
+      "seattle.json",
+      "phoenix.json",
+      "denver.json",
+      "portland.json"
+    ]
+  },
+  "rules": {
+    "files": []
+  },
+  "version": "1.0.0-beta",
+  "lastUpdate": "2026-02-14"
+}
