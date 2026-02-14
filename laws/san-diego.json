@@ -1,0 +1,53 @@
+{
+  "updatedAt": 1740000000000,
+  "data": {
+    "UK": {
+      "url": "https://forum.majestic-rp.ru/threads/ugolovnyj-kodeks",
+      "articles": [
+        {
+          "code": "1.1",
+          "title": "Пример статьи УК (временные данные)",
+          "text": "Это временная заглушка. Здесь будут реальные данные после настройки парсера.",
+          "penalty": "Наказание будет добавлено позже",
+          "wanted_stars": 0
+        }
+      ]
+    },
+    "AK": {
+      "url": "https://forum.majestic-rp.ru/threads/administrativnyj-kodeks",
+      "articles": [
+        {
+          "code": "1.1",
+          "title": "Пример статьи АК (временные данные)",
+          "text": "Это временная заглушка. Здесь будут реальные данные после настройки парсера.",
+          "penalty": "Наказание будет добавлено позже",
+          "wanted_stars": 0
+        }
+      ]
+    },
+    "DK": {
+      "url": "https://forum.majestic-rp.ru/threads/dorozhnyj-kodeks",
+      "articles": [
+        {
+          "code": "1.1",
+          "title": "Пример статьи ДК (временные данные)",
+          "text": "Это временная заглушка. Здесь будут реальные данные после настройки парсера.",
+          "penalty": "Наказание будет добавлено позже",
+          "wanted_stars": 0
+        }
+      ]
+    },
+    "PK": {
+      "url": "https://forum.majestic-rp.ru/threads/processualnyj-kodeks",
+      "articles": [
+        {
+          "code": "1.1",
+          "title": "Пример статьи ПК (временные данные)",
+          "text": "Это временная заглушка. Здесь будут реальные данные после настройки парсера.",
+          "penalty": "Наказание будет добавлено позже",
+          "wanted_stars": 0
+        }
+      ]
+    }
+  }
+}
