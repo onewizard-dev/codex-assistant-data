@@ -1,30 +1,23 @@
 {
-    "laws":  {
-                 "files":  [
-                               "los-angeles.json",
-                               "new-york.json",
-                               "denver-16.json",
-                               "chicago.json",
-                               "san-francisco.json",
-                               "las-vegas.json",
-                               "miami.json",
-                               "washington.json",
-                               "dallas.json",
-                               "boston.json",
-                               "houston.json",
-                               "seattle.json",
-                               "phoenix.json",
-                               "portland.json",
-                               "detroit.json",
-                               "atlanta.json"
-                           ]
-             },
-    "version":  "1.0.0",
-    "rules":  {
-                  "files":  [
-                                "general.json",
-                                "events.json",
-                                "organizations.json"
-                            ]
-              }
+  "laws": {
+    "files": [
+      "new-york-1.json",
+      "detroit-2.json",
+      "chicago-3.json",
+      "san-francisco-4.json",
+      "atlanta-5.json",
+      "san-diego-6.json",
+      "los-angeles-7.json",
+      "miami-8.json",
+      "las-vegas-9.json",
+      "washington-10.json",
+      "dallas-11.json",
+      "boston-12.json",
+      "houston-13.json",
+      "seattle-14.json",
+      "phoenix-15.json",
+      "denver-16.json",
+      "portland-17.json"
+    ]
+  }
 }
