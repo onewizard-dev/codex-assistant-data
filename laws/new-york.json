@@ -1,0 +1,17 @@
+{
+  "updatedAt": 1740000000000,
+  "data": {
+    "UK": {
+      "url": "https://forum.majestic-rp.ru/threads/ugolovnyj-kodeks",
+      "articles": [
+        {
+          "code": "1.1",
+          "title": "Убийство",
+          "text": "Умышленное причинение смерти другому человеку",
+          "penalty": "60 минут тюрьмы",
+          "wanted_stars": 5
+        }
+      ]
+    }
+  }
+}
