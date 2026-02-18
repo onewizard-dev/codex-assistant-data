@@ -1,32 +1,64 @@
-﻿# codex-assistant-data
+# Codex Assistant Data
 
-Data repository for Codex Assistant application.
+Хранилище данных для приложения Codex Assistant.
 
-## Structure
+## Структура
 
-- /laws/ - Law files for different servers
-- /rules/ - Rules files by category
-- epo_structure.json - List of available files
-- anner.json - Banner configuration
+/  
+├── laws/                  # Законы для серверов (new-york-1.json, los-angeles-7.json, ...)  
+├── rules/                 # Правила (general.json, events.json, organizations.json)  
+├── repo_structure.json    # Список всех доступных файлов  
+└── banner.json            # Конфигурация баннера  
 
-## Data Format
+## Форматы данных
 
-### Law files
-`json
-{
-  "updatedAt": 1734444000000,
-  "data": {
-    "UK": {
-      "url": "forum link",
-      "articles": []
-    }
-  }
-}
-{
-  "updatedAt": 1734444000000,
-  "data": {
-    "main-rules": {
-      "articles": []
-    }
-  }
+### Законы (/laws/*.json)  
+{  
+  "updatedAt": 1734444000000,  
+  "data": {  
+    "UK": {  
+      "url": "https://forum.majestic-rp.ru/...",  
+      "articles": [  
+        {  
+          "code": "6.9",  
+          "title": "Название статьи",  
+          "text": "Текст статьи",  
+          "penalty": "Наказание"  
+        }  
+      ]  
+    }  
+  }  
+}  
+
+### Правила (/rules/*.json)  
+{  
+  "updatedAt": 1734444000000,  
+  "data": {  
+    "main-rules": {  
+      "articles": [  
+        {  
+          "code": "1.1",  
+          "title": "Название",  
+          "note": "Примечание",  
+          "explanation": "Пояснение",  
+          "exception": "Исключения",  
+          "penalty": "Наказание"  
+        }  
+      ]  
+    }  
+  }  
+}  
+
+### repo_structure.json  
+{  
+  "laws": { "files": ["new-york-1.json", "los-angeles-7.json"] },  
+  "rules": { "files": ["general.json", "events.json", "organizations.json"] },  
+  "lastUpdate": 1734444000000  
+}  
+
+### banner.json  
+{  
+  "enabled": true,  
+  "imageUrl": "https://...",  
+  "linkUrl": "https://..."  
 }
