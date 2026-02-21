@@ -5,17 +5,7 @@
     {
       "date": "14.02.2026",
       "items": [
-        "Релиз Codex Assistant 1.0.0",
-        "Полная копия функционала Laws MEMO на чистом HTML/CSS/JS (без React)",
-        "Интеграция с репозиторием данных onewizard-dev/codex-assistant-data",
-        "Поддержка 17 игровых серверов: Atlanta, Boston, Chicago, Dallas, Denver, Detroit, Houston, Las Vegas, Los Angeles, Miami, New York, Phoenix, Portland, San Diego, San Francisco, Seattle, Washington",
-        "Добавлены все разделы правил: общие, события, организации",
-        "Исправлена проблема с кодировкой JSON (удален BOM)",
-        "Добавлены иконки для всех серверов",
-        "Настраиваемая горячая клавиша вызова окна поиска",
-        "Регулировка прозрачности окна поиска",
-        "Автоматическое скрытие окна при потере фокуса",
-        "Копирование номера статьи по клику"
+        "Релиз Codex Assistant 1.0.0"
       ]
     }
   ]

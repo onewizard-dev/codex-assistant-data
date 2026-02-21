@@ -1,4 +1,4 @@
-# Codex Assistant Data
+﻿# Codex Assistant Data
 
 Хранилище данных для приложения Codex Assistant.
 
